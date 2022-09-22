@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 58
+  controlID: 29
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 148
+  controlID: 131
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24
+  controlID: 35
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,11 +248,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 467
-    height: 610
+    height: 539
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 25
+  controlID: 36
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 215
-    height: 610
+    height: 539
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 23}
@@ -297,7 +297,7 @@ MonoBehaviour:
     x: 215
     y: 0
     width: 252
-    height: 610
+    height: 539
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 24}
@@ -321,9 +321,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 610
+    y: 539
     width: 467
-    height: 337
+    height: 408
   m_MinSize: {x: 202, y: 141}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 26}
@@ -351,8 +351,8 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -1838,7 +1838,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 139034
+  m_LastSelectedObjectID: -15112
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1890,7 +1890,7 @@ MonoBehaviour:
     x: 1062
     y: 73
     width: 213
-    height: 589
+    height: 518
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1898,9 +1898,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d8750000
+      m_SelectedIDs: 947a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: 44caffff98cdfffffce6ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1947,7 +1947,7 @@ MonoBehaviour:
     x: 1277
     y: 73
     width: 250
-    height: 589
+    height: 518
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1965,7 +1965,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameMain/Scripts
+    - Assets/_GameWorkflow/Base
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -1979,7 +1979,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 04440100
     m_LastClickedID: 82948
-    m_ExpandedIDs: 000000003a7500003c750000
+    m_ExpandedIDs: 00000000387500003a7500003c7500003e7500004075000042750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2007,21 +2007,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000003a7500003c75000074750000787500007a750000f0750000
+    m_ExpandedIDs: ffffffff00000000387500003a75000040750000807500009a7500009c750000a275000004760000ec760000f0760000947a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scripts
-      m_OriginalName: Scripts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30168
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -2084,9 +2084,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1062
-    y: 683
+    y: 612
     width: 465
-    height: 316
+    height: 387
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2112,17 +2112,17 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1062
-    y: 683
+    y: 612
     width: 465
-    height: 316
+    height: 387
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  logPanelScroll: {x: 0, y: 0}
+  logPanelScroll: {x: 0, y: -94}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 116673
+  currentFrame: 162733
   logs:
     lastGrabbedIndex: 1
     lastGrabbedCount: 2
@@ -2138,132 +2138,37 @@ MonoBehaviour:
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
-      originalLog: Load configuration failure.
-      originalStackTrace: 'Load configuration failure.
+      originalLog: Can not move asset from Assets/_GameWorkflow/Base to Assets/_GameWorkflow/LutyGameKit.
+        Destination parent directory does not exist
+      originalStackTrace: 'Can not move asset from Assets/_GameWorkflow/Base to Assets/_GameWorkflow/LutyGameKit.
+        Destination parent directory does not exist
 
-        UnityEngine.Debug:LogWarning
-        (object)
-
-        UnityGameKit.Editor.ResourceTools.ResourceBuilder:OnEnable
-        () (at Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:77)
-
-        UnityEditor.EditorWindow:GetWindow<UnityGameKit.Editor.ResourceTools.ResourceBuilder>
-        (string,bool)
-
-        UnityGameKit.Editor.ResourceTools.ResourceBuilder:Open
-        () (at Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:22)
+        UnityEngine.GUIUtility:ProcessEvent
+        (int,intptr,bool&)
 
 '
-      nativeFileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs
+      nativeFileName: C:\buildslave\unity\build\Editor\Src\EditorHelper.cpp
       nativeFileNamePretty: 
-      nativeLineNumber: 77
+      nativeLineNumber: 1009
       watchName: 
-      logText: Load configuration failure.
-      logTruncatedText: Load configuration failure.
+      logText: Can not move asset from Assets/_GameWorkflow/Base to Assets/_GameWorkflow/LutyGameKit.
+        Destination parent directory does not exist
+      logTruncatedText: Can not move asset from Assets/_GameWorkflow/Base to Assets/_GameWorkflow/LutyGameKit.
+        Destination parent directory does not exist
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 15:10:06
+      timeStamp: 15:20:56
       timeFrame: -1
       timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 0
+      instanceID: 31380
+      collapsedCount: 1
       cachedHeight: -1
       cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs
-        fileNameWithoutAssets: _GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs
-        fileNameWithoutAssetsPlusLineNumber: _GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:77
-        fileNameWithoutPath: ResourceBuilder.cs
-        fileNameWithoutPathPlusLineNumber: ResourceBuilder.cs:77
-        fileNamePretty: ResourceBuilder
-        instanceID: -1
-        className: ResourceBuilder
-        methodName: OnEnable
-        namespaceName: UnityGameKit.Editor.ResourceTools
-        lineNumberString: 77
-        charNumber: 0
-        stackLabel: ResourceBuilder.OnEnable()
-        stackLabel2: ' at /_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:77'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        fileNamePretty: None
-        instanceID: -1
-        className: EditorWindow
-        methodName: GetWindow<UnityGameKit.Editor.ResourceTools.ResourceBuilder>
-        namespaceName: UnityEditor
-        lineNumberString: 0
-        charNumber: 0
-        stackLabel: EditorWindow.GetWindow<UnityGameKit.Editor.ResourceTools.ResourceBuilder>()
-        stackLabel2: 
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs
-        fileNameWithoutAssets: _GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs
-        fileNameWithoutAssetsPlusLineNumber: _GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:22
-        fileNameWithoutPath: ResourceBuilder.cs
-        fileNameWithoutPathPlusLineNumber: ResourceBuilder.cs:22
-        fileNamePretty: ResourceBuilder
-        instanceID: -1
-        className: ResourceBuilder
-        methodName: Open
-        namespaceName: UnityGameKit.Editor.ResourceTools
-        lineNumberString: 22
-        charNumber: 0
-        stackLabel: ResourceBuilder.Open()
-        stackLabel2: ' at /_GameWorkflow/GameKit/Scripts/Editor/ResourceBuilder/ResourceBuilder.cs:22'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
+      stackEntries: []
       ignoredStackEntries: []
       lastMatchedCount: 0
       belongsToFilters:
@@ -2652,158 +2557,64 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-    - logType: 2
+    - logType: 3
       ignore: 0
       processed: 1
       tempFilterProcessed: 1
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 0
-      logOutputHeight: -1
+      logOutputHeight: 42
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: Load configuration failure.
-      originalStackTrace: 'Load configuration failure.
+      originalLog: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
+      originalStackTrace: 'GUI Error: You are pushing more GUIClips than you are
+        popping. Make sure they are balanced.
 
-        UnityEngine.Debug:LogWarning
-        (object)
-
-        UnityGameKit.Editor.ResourceTools.ResourceEditor:OnEnable
-        () (at Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:88)
-
-        UnityEditor.EditorWindow:GetWindow<UnityGameKit.Editor.ResourceTools.ResourceEditor>
-        (string,bool)
-
-        UnityGameKit.Editor.ResourceTools.ResourceEditor:Open
-        () (at Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:43)
+        UnityEngine.GUIUtility:ProcessEvent
+        (int,intptr,bool&)
 
 '
-      nativeFileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs
+      nativeFileName: 
       nativeFileNamePretty: 
-      nativeLineNumber: 88
+      nativeLineNumber: 0
       watchName: 
-      logText: Load configuration failure.
-      logTruncatedText: Load configuration failure.
-      logColumnText: 
+      logText: 'GUI Error: You are pushing more GUIClips than you are popping. Make
+        sure they are balanced.'
+      logTruncatedText: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
+      logColumnText: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 15:10:12
+      timeStamp: 15:20:56
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
-      collapsedCount: 0
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs
-        fileNameWithoutAssets: _GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs
-        fileNameWithoutAssetsPlusLineNumber: _GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:88
-        fileNameWithoutPath: ResourceEditor.cs
-        fileNameWithoutPathPlusLineNumber: ResourceEditor.cs:88
-        fileNamePretty: ResourceEditor
-        instanceID: -1
-        className: ResourceEditor
-        methodName: OnEnable
-        namespaceName: UnityGameKit.Editor.ResourceTools
-        lineNumberString: 88
-        charNumber: 0
-        stackLabel: ResourceEditor.OnEnable()
-        stackLabel2: ' at /_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:88'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        fileNamePretty: None
-        instanceID: -1
-        className: EditorWindow
-        methodName: GetWindow<UnityGameKit.Editor.ResourceTools.ResourceEditor>
-        namespaceName: UnityEditor
-        lineNumberString: 0
-        charNumber: 0
-        stackLabel: EditorWindow.GetWindow<UnityGameKit.Editor.ResourceTools.ResourceEditor>()
-        stackLabel2: 
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: Assets/_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs
-        fileNameWithoutAssets: _GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs
-        fileNameWithoutAssetsPlusLineNumber: _GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:43
-        fileNameWithoutPath: ResourceEditor.cs
-        fileNameWithoutPathPlusLineNumber: ResourceEditor.cs:43
-        fileNamePretty: ResourceEditor
-        instanceID: -1
-        className: ResourceEditor
-        methodName: Open
-        namespaceName: UnityGameKit.Editor.ResourceTools
-        lineNumberString: 43
-        charNumber: 0
-        stackLabel: ResourceEditor.Open()
-        stackLabel2: ' at /_GameWorkflow/GameKit/Scripts/Editor/ResourceEditor/ResourceEditor.cs:43'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
+      collapsedCount: 1
+      cachedHeight: 34
+      cachedHeightLogWidth: 421
+      stackEntries: []
       ignoredStackEntries: []
-      lastMatchedCount: 0
+      lastMatchedCount: 1
       belongsToFilters:
-      - name: Warning
+      - name: Error
         isEnabled: 1
         collapsed: 1
-        itemGUID: a546b6c1-4db0-429c-b8cd-a7e6413c2f8e
+        itemGUID: 66549c99-47fe-49f5-966d-993e2d9ed515
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 0
+        useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -2824,7 +2635,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 8b9fed45-563a-44a6-a4b1-2f2ffbc94c1e
+            itemGUID: c2a7aad8-7a82-40b1-b778-298fa968e5f7
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2833,13 +2644,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: c16efee7-5eae-4b79-9b1a-370a0ed283cb
-                logType: 2
+                itemGUID: 90a3ed3c-b92b-45cc-9900-c8a179bf5b77
+                logType: 3
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 4b2ce462-4849-447b-95a0-522e6d964a08
-                logType: 5
+                itemGUID: 1e6bce34-dc36-4b4d-ba85-a576852b4aca
+                logType: 6
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -2848,7 +2659,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: efc4aa8d-0ce8-433e-bf17-73dafb0f7558
+                itemGUID: 819c9099-ca24-45ab-b229-34dbd1cf3953
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2868,14 +2679,14 @@ MonoBehaviour:
           itemGUID: 
           iconType: 3
           iconType2: 1
-          iconText: '!'
+          iconText: X
           useIconTextFirstLetter: 0
           useIconLogColor: 0
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
           iconSize: 7
         iconSymbol:
@@ -2906,7 +2717,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -2933,18 +2744,18 @@ MonoBehaviour:
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
       belongsToStandardFilters:
-      - name: Warning
+      - name: Error
         isEnabled: 1
         collapsed: 1
-        itemGUID: a546b6c1-4db0-429c-b8cd-a7e6413c2f8e
+        itemGUID: 66549c99-47fe-49f5-966d-993e2d9ed515
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 0
+        useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -2965,7 +2776,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 8b9fed45-563a-44a6-a4b1-2f2ffbc94c1e
+            itemGUID: c2a7aad8-7a82-40b1-b778-298fa968e5f7
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2974,13 +2785,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: c16efee7-5eae-4b79-9b1a-370a0ed283cb
-                logType: 2
+                itemGUID: 90a3ed3c-b92b-45cc-9900-c8a179bf5b77
+                logType: 3
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 4b2ce462-4849-447b-95a0-522e6d964a08
-                logType: 5
+                itemGUID: 1e6bce34-dc36-4b4d-ba85-a576852b4aca
+                logType: 6
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -2989,7 +2800,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: efc4aa8d-0ce8-433e-bf17-73dafb0f7558
+                itemGUID: 819c9099-ca24-45ab-b229-34dbd1cf3953
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3009,14 +2820,14 @@ MonoBehaviour:
           itemGUID: 
           iconType: 3
           iconType2: 1
-          iconText: '!'
+          iconText: X
           useIconTextFirstLetter: 0
           useIconLogColor: 0
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
           iconSize: 7
         iconSymbol:
@@ -3047,7 +2858,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -3181,7 +2992,438 @@ MonoBehaviour:
     resetCompilerErrorEntries: 1
     compilerErrorEntries: []
     timeFrames: 
-    _filteredEntries: []
+    _filteredEntries:
+    - logType: 3
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 0
+      logOutputHeight: 42
+      listIndex: 1
+      nativeIndex: 1
+      nativeIdentifier: 0
+      originalLog: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
+      originalStackTrace: 'GUI Error: You are pushing more GUIClips than you are
+        popping. Make sure they are balanced.
+
+        UnityEngine.GUIUtility:ProcessEvent
+        (int,intptr,bool&)
+
+'
+      nativeFileName: 
+      nativeFileNamePretty: 
+      nativeLineNumber: 0
+      watchName: 
+      logText: 'GUI Error: You are pushing more GUIClips than you are popping. Make
+        sure they are balanced.'
+      logTruncatedText: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
+      logColumnText: 'GUI Error: You are pushing more GUIClips than you are popping.
+        Make sure they are balanced.'
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: 15:20:56
+      timeFrame: -1
+      timeStampDateTimeNow: 
+      instanceID: 0
+      collapsedCount: 1
+      cachedHeight: 34
+      cachedHeightLogWidth: 421
+      stackEntries: []
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Error
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 66549c99-47fe-49f5-966d-993e2d9ed515
+        filterName: 
+        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 1
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: c2a7aad8-7a82-40b1-b778-298fa968e5f7
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 90a3ed3c-b92b-45cc-9900-c8a179bf5b77
+                logType: 3
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 1e6bce34-dc36-4b4d-ba85-a576852b4aca
+                logType: 6
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 819c9099-ca24-45ab-b229-34dbd1cf3953
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: X
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Error
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 66549c99-47fe-49f5-966d-993e2d9ed515
+        filterName: 
+        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 1
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: c2a7aad8-7a82-40b1-b778-298fa968e5f7
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 90a3ed3c-b92b-45cc-9900-c8a179bf5b77
+                logType: 3
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 1e6bce34-dc36-4b4d-ba85-a576852b4aca
+                logType: 6
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 819c9099-ca24-45ab-b229-34dbd1cf3953
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            sourceCodeList:
+              list: []
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: X
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        filterOnly: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
 --- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52

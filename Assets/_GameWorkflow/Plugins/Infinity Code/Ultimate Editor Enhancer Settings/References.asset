@@ -184,5 +184,7 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
+  - name: GameLauncher
+    path: Assets/_GameWorkflow/GameKit/GameLauncher.unity
   - name: Default
     path: Assets/GameMain/Scenes/Default.unity
