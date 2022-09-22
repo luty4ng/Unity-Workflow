@@ -6,8 +6,8 @@ using UnityGameKit.Runtime;
 
 namespace UnityGameKit.Editor
 {
-    [CustomEditor(typeof(BaseComponent))]
-    internal sealed class BaseComponentInspector : GameKitInspector
+    [CustomEditor(typeof(CoreComponent))]
+    internal sealed class CoreComponentInspector : GameKitInspector
     {
         private const string NoneOptionName = "<None>";
         private static readonly float[] GameSpeed = new float[] { 0f, 0.01f, 0.1f, 0.25f, 0.5f, 1f, 1.5f, 2f, 4f, 8f };
@@ -42,7 +42,7 @@ namespace UnityGameKit.Editor
 
             serializedObject.Update();
 
-            BaseComponent t = (BaseComponent)target;
+            CoreComponent t = (CoreComponent)target;
 
             EditorGUI.BeginDisabledGroup(EditorApplication.isPlayingOrWillChangePlaymode);
             {

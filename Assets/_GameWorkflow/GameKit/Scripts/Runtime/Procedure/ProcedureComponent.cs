@@ -11,7 +11,7 @@ namespace UnityGameKit.Runtime
     /// 流程组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Procedure")]
+    [AddComponentMenu("Game Kit/Procedure Component")]
     public sealed class ProcedureComponent : GameKitComponent
     {
         private IProcedureManager m_ProcedureManager = null;

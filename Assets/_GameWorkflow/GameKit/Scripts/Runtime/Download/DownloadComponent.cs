@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 下载组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Download")]
+    [AddComponentMenu("Game Kit/Download Component")]
     public sealed class DownloadComponent : GameKitComponent
     {
         private const int DefaultPriority = 0;
@@ -160,7 +160,7 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            m_EventComponent = GameKitCenter.GetComponent<EventComponent>();
+            m_EventComponent = GameKitComponentCenter.GetComponent<EventComponent>();
             if (m_EventComponent == null)
             {
                 Log.Fatal("Event component is invalid.");

@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 调试器组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Debugger")]
+    [AddComponentMenu("Game Kit/Debugger Component")]
     public sealed partial class DebuggerComponent : GameKitComponent
     {
         /// <summary>

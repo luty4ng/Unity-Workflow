@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 网络组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Network")]
+    [AddComponentMenu("Game Kit/Network Component")]
     public sealed class NetworkComponent : GameKitComponent
     {
         private INetworkManager m_NetworkManager = null;
@@ -49,7 +49,7 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            m_EventComponent = GameKitCenter.GetComponent<EventComponent>();
+            m_EventComponent = GameKitComponentCenter.GetComponent<EventComponent>();
             if (m_EventComponent == null)
             {
                 Log.Fatal("Event component is invalid.");

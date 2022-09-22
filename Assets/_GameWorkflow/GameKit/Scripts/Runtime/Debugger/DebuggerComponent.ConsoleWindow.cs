@@ -211,7 +211,7 @@ namespace UnityGameKit.Runtime
 
             public void Initialize(params object[] args)
             {
-                m_SettingComponent = GameKitCenter.GetComponent<SettingComponent>();
+                m_SettingComponent = GameKitComponentCenter.GetComponent<SettingComponent>();
                 if (m_SettingComponent == null)
                 {
                     Log.Fatal("Setting component is invalid.");

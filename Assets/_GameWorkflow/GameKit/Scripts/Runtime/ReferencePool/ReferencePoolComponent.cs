@@ -7,7 +7,7 @@ namespace UnityGameKit.Runtime
     /// 引用池组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/ReferencePool")]
+    [AddComponentMenu("Game Kit/ReferencePool Component")]
     public sealed class ReferencePoolComponent : GameKitComponent
     {
         [SerializeField]

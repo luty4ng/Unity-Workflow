@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 文件系统件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/File System")]
+    [AddComponentMenu("Game Kit/FileSystem Component")]
     public sealed class FileSystemComponent : GameKitComponent
     {
         private IFileSystemManager m_FileSystemManager = null;

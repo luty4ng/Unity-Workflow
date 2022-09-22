@@ -18,14 +18,14 @@ namespace UnityGameKit.Runtime
 
             public override void Initialize(params object[] args)
             {
-                m_DebuggerComponent = GameKitCenter.GetComponent<DebuggerComponent>();
+                m_DebuggerComponent = GameKitComponentCenter.GetComponent<DebuggerComponent>();
                 if (m_DebuggerComponent == null)
                 {
                     Log.Fatal("Debugger component is invalid.");
                     return;
                 }
 
-                m_SettingComponent = GameKitCenter.GetComponent<SettingComponent>();
+                m_SettingComponent = GameKitComponentCenter.GetComponent<SettingComponent>();
                 if (m_SettingComponent == null)
                 {
                     Log.Fatal("Setting component is invalid.");

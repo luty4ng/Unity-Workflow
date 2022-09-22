@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 事件组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Event")]
+    [AddComponentMenu("Game Kit/Event Component")]
     public sealed class EventComponent : GameKitComponent
     {
         private IEventManager m_EventManager = null;

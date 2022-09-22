@@ -10,7 +10,7 @@ namespace UnityGameKit.Runtime
     /// 有限状态机组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/FSM")]
+    [AddComponentMenu("Game Kit/FSM Component")]
     public sealed class FsmComponent : GameKitComponent
     {
         private IFsmManager m_FsmManager = null;

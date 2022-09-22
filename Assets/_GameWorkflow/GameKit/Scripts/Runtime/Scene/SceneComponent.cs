@@ -12,7 +12,7 @@ namespace UnityGameKit.Runtime
     /// 场景组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Scene")]
+    [AddComponentMenu("Game Kit/Scene Component")]
     public sealed class SceneComponent : GameKitComponent
     {
         private const int DefaultPriority = 0;
@@ -70,7 +70,7 @@ namespace UnityGameKit.Runtime
             m_SceneManager.UnloadSceneSuccess += OnUnloadSceneSuccess;
             m_SceneManager.UnloadSceneFailure += OnUnloadSceneFailure;
 
-            m_GameKitScene = SceneManager.GetSceneAt(GameKitCenter.GameKitSceneId);
+            m_GameKitScene = SceneManager.GetSceneAt(GameKitComponentCenter.GameKitSceneId);
             if (!m_GameKitScene.IsValid())
             {
                 Log.Fatal("Game Kit scene is invalid.");
@@ -80,14 +80,14 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            BaseComponent baseComponent = GameKitCenter.GetComponent<BaseComponent>();
+            CoreComponent baseComponent = GameKitComponentCenter.GetComponent<CoreComponent>();
             if (baseComponent == null)
             {
                 Log.Fatal("Base component is invalid.");
                 return;
             }
 
-            m_EventComponent = GameKitCenter.GetComponent<EventComponent>();
+            m_EventComponent = GameKitComponentCenter.GetComponent<EventComponent>();
             if (m_EventComponent == null)
             {
                 Log.Fatal("Event component is invalid.");

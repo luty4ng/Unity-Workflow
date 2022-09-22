@@ -10,19 +10,19 @@ namespace UnityGameKit.Runtime
     {
         private sealed class EnvironmentInformationWindow : ScrollableDebuggerWindowBase
         {
-            private BaseComponent m_BaseComponent = null;
+            private CoreComponent m_CoreComponent = null;
             private ResourceComponent m_ResourceComponent = null;
 
             public override void Initialize(params object[] args)
             {
-                m_BaseComponent = GameKitCenter.GetComponent<BaseComponent>();
-                if (m_BaseComponent == null)
+                m_CoreComponent = GameKitComponentCenter.GetComponent<CoreComponent>();
+                if (m_CoreComponent == null)
                 {
                     Log.Fatal("Base component is invalid.");
                     return;
                 }
 
-                m_ResourceComponent = GameKitCenter.GetComponent<ResourceComponent>();
+                m_ResourceComponent = GameKitComponentCenter.GetComponent<ResourceComponent>();
                 if (m_ResourceComponent == null)
                 {
                     Log.Fatal("Resource component is invalid.");
@@ -44,7 +44,7 @@ namespace UnityGameKit.Runtime
 #endif
                     DrawItem("Game Kit Version", Version.GameKitVersion);
                     DrawItem("Game Version", Utility.Text.Format("{0} ({1})", Version.GameVersion, Version.InternalGameVersion));
-                    DrawItem("Resource Version", m_BaseComponent.EditorResourceMode ? "Unavailable in editor resource mode" : (string.IsNullOrEmpty(m_ResourceComponent.ApplicableGameVersion) ? "Unknown" : Utility.Text.Format("{0} ({1})", m_ResourceComponent.ApplicableGameVersion, m_ResourceComponent.InternalResourceVersion)));
+                    DrawItem("Resource Version", m_CoreComponent.EditorResourceMode ? "Unavailable in editor resource mode" : (string.IsNullOrEmpty(m_ResourceComponent.ApplicableGameVersion) ? "Unknown" : Utility.Text.Format("{0} ({1})", m_ResourceComponent.ApplicableGameVersion, m_ResourceComponent.InternalResourceVersion)));
                     DrawItem("Application Version", Application.version);
                     DrawItem("Unity Version", Application.unityVersion);
                     DrawItem("Platform", Application.platform.ToString());

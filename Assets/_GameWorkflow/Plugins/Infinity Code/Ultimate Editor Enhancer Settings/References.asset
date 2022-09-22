@@ -183,4 +183,6 @@ MonoBehaviour:
     customWindowSize: {x: 400, y: 300}
     alignWindowToBar: 1
     windowMode: 0
-  _sceneHistory: []
+  _sceneHistory:
+  - name: Default
+    path: Assets/GameMain/Scenes/Default.unity

@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// 全局配置组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Config")]
+    [AddComponentMenu("Game Kit/Config Component")]
     public sealed class ConfigComponent : GameKitComponent
     {
         private const int DefaultPriority = 0;
@@ -84,14 +84,14 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            BaseComponent baseComponent = GameKitCenter.GetComponent<BaseComponent>();
+            CoreComponent baseComponent = GameKitComponentCenter.GetComponent<CoreComponent>();
             if (baseComponent == null)
             {
                 Log.Fatal("Base component is invalid.");
                 return;
             }
 
-            m_EventComponent = GameKitCenter.GetComponent<EventComponent>();
+            m_EventComponent = GameKitComponentCenter.GetComponent<EventComponent>();
             if (m_EventComponent == null)
             {
                 Log.Fatal("Event component is invalid.");

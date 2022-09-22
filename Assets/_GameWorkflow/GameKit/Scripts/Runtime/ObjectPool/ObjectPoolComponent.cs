@@ -10,7 +10,7 @@ namespace UnityGameKit.Runtime
     /// 对象池组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Object Pool")]
+    [AddComponentMenu("Game Kit/ObjectPool Component")]
     public sealed class ObjectPoolComponent : GameKitComponent
     {
         private IObjectPoolManager m_ObjectPoolManager = null;

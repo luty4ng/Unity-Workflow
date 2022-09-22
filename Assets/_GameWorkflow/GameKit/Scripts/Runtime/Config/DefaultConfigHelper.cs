@@ -163,7 +163,7 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            m_ResourceComponent = GameKitCenter.GetComponent<ResourceComponent>();
+            m_ResourceComponent = GameKitComponentCenter.GetComponent<ResourceComponent>();
             if (m_ResourceComponent == null)
             {
                 Log.Fatal("Resource component is invalid.");

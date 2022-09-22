@@ -12,7 +12,7 @@ namespace UnityGameKit.Runtime
 
             public override void Initialize(params object[] args)
             {
-                m_NetworkComponent = GameKitCenter.GetComponent<NetworkComponent>();
+                m_NetworkComponent = GameKitComponentCenter.GetComponent<NetworkComponent>();
                 if (m_NetworkComponent == null)
                 {
                     Log.Fatal("Network component is invalid.");

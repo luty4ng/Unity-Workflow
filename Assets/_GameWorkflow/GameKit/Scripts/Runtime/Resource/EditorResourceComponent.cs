@@ -548,7 +548,7 @@ namespace UnityGameKit.Runtime
             m_LoadSceneInfos = new GameKitLinkedList<LoadSceneInfo>();
             m_UnloadSceneInfos = new GameKitLinkedList<UnloadSceneInfo>();
 
-            BaseComponent baseComponent = GetComponent<BaseComponent>();
+            CoreComponent baseComponent = GetComponent<CoreComponent>();
             if (baseComponent == null)
             {
                 Log.Error("Can not find base component.");

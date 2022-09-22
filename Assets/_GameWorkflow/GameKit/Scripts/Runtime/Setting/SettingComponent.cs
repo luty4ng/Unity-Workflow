@@ -10,7 +10,7 @@ namespace UnityGameKit.Runtime
     /// 游戏配置组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Setting")]
+    [AddComponentMenu("Game Kit/Setting Component")]
     public sealed class SettingComponent : GameKitComponent
     {
         private ISettingManager m_SettingManager = null;

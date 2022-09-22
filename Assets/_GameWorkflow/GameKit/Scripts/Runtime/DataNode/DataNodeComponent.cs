@@ -8,7 +8,7 @@ namespace UnityGameKit.Runtime
     /// 数据结点组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Data Node")]
+    [AddComponentMenu("Game Kit/DataNode Component")]
     public sealed class DataNodeComponent : GameKitComponent
     {
         private IDataNodeManager m_DataNodeManager = null;

@@ -11,7 +11,7 @@ namespace UnityGameKit.Runtime
                 GUILayout.Label("<b>Operations</b>");
                 GUILayout.BeginVertical("box");
                 {
-                    ObjectPoolComponent objectPoolComponent = GameKitCenter.GetComponent<ObjectPoolComponent>();
+                    ObjectPoolComponent objectPoolComponent = GameKitComponentCenter.GetComponent<ObjectPoolComponent>();
                     if (objectPoolComponent != null)
                     {
                         if (GUILayout.Button("Object Pool Release", GUILayout.Height(30f)))
@@ -25,7 +25,7 @@ namespace UnityGameKit.Runtime
                         }
                     }
 
-                    ResourceComponent resourceCompoent = GameKitCenter.GetComponent<ResourceComponent>();
+                    ResourceComponent resourceCompoent = GameKitComponentCenter.GetComponent<ResourceComponent>();
                     if (resourceCompoent != null)
                     {
                         if (GUILayout.Button("Unload Unused Assets", GUILayout.Height(30f)))
@@ -41,15 +41,15 @@ namespace UnityGameKit.Runtime
 
                     if (GUILayout.Button("Shutdown Game Kit (None)", GUILayout.Height(30f)))
                     {
-                        GameKitCenter.Shutdown(ShutdownType.None);
+                        GameKitComponentCenter.Shutdown(ShutdownType.None);
                     }
                     if (GUILayout.Button("Shutdown Game Kit (Restart)", GUILayout.Height(30f)))
                     {
-                        GameKitCenter.Shutdown(ShutdownType.Restart);
+                        GameKitComponentCenter.Shutdown(ShutdownType.Restart);
                     }
                     if (GUILayout.Button("Shutdown Game Kit (Quit)", GUILayout.Height(30f)))
                     {
-                        GameKitCenter.Shutdown(ShutdownType.Quit);
+                        GameKitComponentCenter.Shutdown(ShutdownType.Quit);
                     }
                 }
                 GUILayout.EndVertical();

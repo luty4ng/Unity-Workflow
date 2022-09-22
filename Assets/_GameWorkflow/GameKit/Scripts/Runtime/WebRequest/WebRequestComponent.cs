@@ -9,7 +9,7 @@ namespace UnityGameKit.Runtime
     /// Web 请求组件。
     /// </summary>
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/Web Request")]
+    [AddComponentMenu("Game Kit/WebRequest Component")]
     public sealed class WebRequestComponent : GameKitComponent
     {
         private const int DefaultPriority = 0;
@@ -113,7 +113,7 @@ namespace UnityGameKit.Runtime
 
         private void Start()
         {
-            m_EventComponent = GameKitCenter.GetComponent<EventComponent>();
+            m_EventComponent = GameKitComponentCenter.GetComponent<EventComponent>();
             if (m_EventComponent == null)
             {
                 Log.Fatal("Event component is invalid.");
