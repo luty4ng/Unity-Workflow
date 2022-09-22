@@ -9,7 +9,7 @@ using GameKit.Element;
 namespace UnityGameKit.Runtime
 {
     [DisallowMultipleComponent]
-    [AddComponentMenu("Game Kit/GameKit Element Component")]
+    [AddComponentMenu("Game Kit/Element Component")]
     public class ElementComponent : GameKitComponent
     {
         private IElement m_CachedInteractiveElement;

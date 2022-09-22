@@ -11,13 +11,7 @@ namespace UnityGameKit.Editor
         [MenuItem("Game Kit/Documentation", false, 90)]
         public static void ShowDocumentation()
         {
-            ShowHelp("https://GameKit.cn/document/");
-        }
-
-        [MenuItem("Game Kit/API Reference", false, 91)]
-        public static void ShowApiReference()
-        {
-            ShowHelp("https://GameKit.cn/api/");
+            // ShowHelp("https://GameKit.cn/document/");
         }
 
         private static void ShowHelp(string uri)
